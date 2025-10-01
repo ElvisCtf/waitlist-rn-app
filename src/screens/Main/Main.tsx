@@ -1,22 +1,15 @@
 import { styles } from '@/src/styles/styles';
-import { useCallback, useState } from 'react';
-import { Text, TouchableOpacity } from 'react-native';
+import { useState } from 'react';
+import { Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import QueueInfo from './components/QueueInfo';
+import PrimaryButton from './components/PrimaryButton';
 
 
 export default function Main() {
   const [myNumber, setMyNumber] = useState('')
   const [currentNumber, setCurrentNumber] = useState('0');
   const [isJoin, setIsJoin] = useState(false);
-
-  const buttonStyle = [styles.outlineButton, isJoin ? styles.redBorder : styles.greenBorder];
-  const buttonText = isJoin ? 'EXIT QUEUE' : 'JOIN QUEUE';
-  const buttonTextStyle = isJoin ? styles.redText : styles.greenText;
-
-  const onPress = useCallback(() => {
-    setIsJoin(prev => !prev);
-  }, []);
 
   return (
     <SafeAreaView style={styles.startContainer}>
@@ -30,9 +23,7 @@ export default function Main() {
         )
       }
 
-      <TouchableOpacity style={buttonStyle} onPress={onPress}>
-        <Text style={buttonTextStyle}>{buttonText}</Text>
-      </TouchableOpacity>
+      <PrimaryButton isJoin={isJoin} setIsJoin={setIsJoin}/>
     </SafeAreaView>
   );
 }
