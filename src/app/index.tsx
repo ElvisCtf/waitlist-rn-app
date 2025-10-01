@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import Main from "../screens/Main";
+import Main from "../screens/Main/Main";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function Index() {
