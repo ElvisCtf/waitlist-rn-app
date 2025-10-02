@@ -32,10 +32,10 @@ Users can join a virtual queue, receive a number, and track their position in re
 ## 📱 Screenshots
 
 ### Before Joining
-
+<img src="https://github.com/user-attachments/assets/2fcbbe73-ef5b-4c41-8a44-9c00bc40806c" width="200"/>
 
 ### After Joining
-
+<img src="https://github.com/user-attachments/assets/5801a4b5-3066-415a-ab63-431ea4e1c6ae" width="200"/>
 
 ---
 
