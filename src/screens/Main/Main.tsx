@@ -13,7 +13,7 @@ export default function Main() {
 
   return (
     <SafeAreaView style={styles.startContainer}>
-      <Text style={[styles.headline, styles.marginTop16]}>QueueMe</Text>
+      <Text style={[styles.headline, styles.marginTop16]}>LineUp</Text>
 
       {
         isJoin ? (
