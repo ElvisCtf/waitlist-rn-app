@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# 📲 LineUp – Mobile Queueing App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Users can join a virtual queue, receive a number, and track their position in real time—all from their phone.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Tech Stack
 
-   ```bash
-   npm install
-   ```
+### Frontend
 
-2. Start the app
+- **React Native with Expo** (in progress)
+- TypeScript
+- Cross-platform support (iOS & Android)
+- Features include:
+  - Join queue
+  - View current number
+  - Leave queue
+  - Push notifications
 
-   ```bash
-   npx expo start
-   ```
+### Backend
 
-In the output, you'll find options to open the app in a
+- **ASP.NET Core** (in progress)
+- C#
+- Features include:
+  - RESTful API for queue operations
+  - Admin dashboard for managing queues
+  - Real-time updates via WebSocket
+  - PostgreSQL for data persistence
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📱 Screenshots
 
-## Get a fresh project
+### Before Joining
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+### After Joining
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🧩 Features (Planned)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Join queue
+- View queue status
+- Push notifications
+- Admin panel
