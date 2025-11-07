@@ -53,7 +53,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    width: '80%',
+    width: '100%',
   },
   greenBorder: {
     borderColor: '#3E7B27',

@@ -1,6 +1,6 @@
 import { styles } from '@/src/styles/styles';
 import { useState } from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import QueueInfo from './components/QueueInfo';
 import PrimaryButton from './components/PrimaryButton';
@@ -23,7 +23,9 @@ export default function Main() {
         )
       }
 
-      <PrimaryButton isJoin={isJoin} setIsJoin={setIsJoin}/>
+      <View style={{ marginBottom: 16, width: '80%' }}>
+        <PrimaryButton isJoin={isJoin} setIsJoin={setIsJoin}/>
+      </View>
     </SafeAreaView>
   );
 }
